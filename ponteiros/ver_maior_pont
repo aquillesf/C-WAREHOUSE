@@ -17,3 +17,27 @@ int main() {
     }
     return 0;
 }
+
+//Escreva um programa que contenha duas variaveis inteiras. Leia essas variaveis do
+//teclado. Em seguida, compare seus enderecos e exiba o conteudo do maior endereco.
+#include <stdio.h>
+
+int main() {
+    int A;
+    int B;
+    
+    scanf("%d", &A);
+    scanf("%d", &B);
+    
+    int *pontA = &A;
+    int *pontB = &B;
+    printf("esse é o endereço de A: %p\n", *pontA);
+    printf("esse é o endereço de B: %p\n", *pontB);
+    
+    if (*pontA > *pontB){
+        printf("%p", *pontA);
+    } else {
+        printf("%p", *pontB);
+    }
+    return 0;
+}
