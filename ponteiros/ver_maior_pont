@@ -1,0 +1,19 @@
+//Escreva um programa que contenha duas variaveis inteiras. Compare seus enderecos e exiba o maior endereco.
+#include <stdio.h>
+
+int main() {
+    int A = 89;
+    int B = 70;
+    
+    int *pontA = &A;
+    int *pontB = &B;
+    printf("esse é o endereço de A: %p\n", *pontA);
+    printf("esse é o endereço de B: %p\n", *pontB);
+    
+    if (*pontA > *pontB){
+        printf("%p", *pontA);
+    } else {
+        printf("%p", *pontB);
+    }
+    return 0;
+}
