@@ -4,7 +4,7 @@ Este projeto é um sistema feito totalmente em C para **gerenciar funcionários*
 
 ---
 
-## Funcionalidades
+# Funcionalidades
 
 1. **Adicionar funcionário**  
    Permite cadastrar um novo funcionário com os seguintes dados:  
