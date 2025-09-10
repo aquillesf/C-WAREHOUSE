@@ -2,7 +2,6 @@
 
 Este projeto é um sistema feito totalmente em C para **gerenciar funcionários** de uma empresa. Ele permite **adicionar**, **deletar** e **listar** funcionários, armazenando informações como **nome, sobrenome, cargo e ID**. O projeto também utiliza técnicas de **alocação dinâmica de memória**, garantindo flexibilidade na quantidade de funcionários gerenciados.
 
----
 
 # Funcionalidades
 
