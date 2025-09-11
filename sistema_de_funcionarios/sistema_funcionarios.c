@@ -65,7 +65,15 @@ int main() {
         }
 
         if(input == '3'){
-            limpar_buffer();     
+            limpar_buffer();
+            for(int i = 0; i <= quantidade; i++){
+                printf("========================================\n");
+                printf("ID do funcionário %d: %d\n", i, funcionarios[i].ID);
+                printf("Nome do funcionário %d: %s\n", i, funcionarios[i].nome);
+                printf("Sobrenome do funcionário %d: %s\n", i, funcionarios[i].sobrenome);
+                printf("Cargo do funcionário %d: %s\n", i, funcionarios[i].cargo);
+                printf("========================================\n");
+            }
         }
     }
     return 0;
@@ -75,8 +83,3 @@ void limpar_buffer() {
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
 };
-
-
-
-
-
